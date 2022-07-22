@@ -1,0 +1,26 @@
+    Adobe Logo
+https://ibb.co/RPRftb7
+    Rainbow Cloud
+https://ibb.co/wKQ41q2
+    Rainbow Logo
+https://ibb.co/JxQDgXg
+    Blackhole Couple
+https://ibb.co/8N5S2m9
+    Facebook Logo
+https://ibb.co/3hXFWBq
+    Instagram Logo
+https://ibb.co/1GQff09  
+    Twitter Logo
+https://ibb.co/wcm0k5Q
+
+
+Colors:
+    Container Background: #E4E4E4
+    Blue Background: #171a3a
+    Adobe Title: #EB1000
+    Blue Anchor Link: #1473E6
+    Footer Text: #959595
+    Footer Background: #F5F5F5
+
+Fonts:
+

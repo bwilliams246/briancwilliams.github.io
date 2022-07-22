@@ -1,0 +1,224 @@
+<mjml>
+    <mj-head>
+        <mj-attributes>
+            <mj-section padding="0px" background-color="#fff"></mj-section>
+            <mj-column width="90%" padding="0px" css-class="mobile-width"></mj-column>
+            <mj-text padding="0px" line-height="21px"></mj-text>
+            <mj-image padding="0px" />
+        </mj-attributes>
+
+        <mj-style>
+            .desktop-header {
+                text-align: left !important;
+            }
+
+            .align-left {
+                text-align: left !important;
+            }
+
+            .align-right {
+                text-align: right !important;
+            }
+
+            @media screen and (max-width: 479.98px) {
+                .mobile-width {
+                    width: 90% !important;
+                }
+
+                .mobile-header {
+                    text-align: center !important;
+                    line-height: 34px !important;
+                }
+
+                .asterisk-width {
+                    width: 2% !important;
+                }
+            }
+        </mj-style>
+    </mj-head>
+
+    <mj-body background-color="#F6F6F6">
+        /* BANNER IMAGE */
+        <mj-section>
+            <mj-column width="100%">
+                <mj-image 
+                    src="./images/CVS-banner-logo.png" 
+                    alt="CVS Health"
+                    title="CVS Health"
+                    width="600px" />
+            </mj-column>
+        </mj-section>
+
+        /* THREE PEOPLE IMAGE */
+        <mj-section>
+            <mj-column width="100%" padding-bottom="28px">
+                <mj-image 
+                    src="./images/three-people.png" 
+                    alt="Three People"
+                    title="Three People" />
+            </mj-column>
+        </mj-section>
+
+        /* RED HEADER */
+        <mj-section>
+            <mj-column padding-bottom="28px">
+                <mj-text css-class="mobile-header" color="#f00" font-size="28px" font-weight="bold">
+                    <div class="mobile-header" style="padding: 0px">This is bigger than just science</div>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        /* BOLD SUB HEADER */
+        <mj-section>
+            <mj-column padding-bottom='28px'>
+                <mj-text font-weight="bold">
+                    The <span style="padding: 0px; font-style: italic;">All of Us</span>
+                    Research Program isn't just any research program.*
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        /* PAGAGRAPH ONE */
+        <mj-section>
+            <mj-column padding-bottom="28px">
+                <mj-text>
+                    <span style="padding: 0px; font-style: italic;">All of Us</span> 
+                    is a research program from the National Institutes of Health (NIH) with 
+                    a goal of recruiting one million or more people from across the United States 
+                    to help medical researchers learn more about health. 
+                    CVS Health Clinical Trial Services™ collaborates with the 
+                    <span style="padding: 0px; font-style: italic;">All of Us</span> 
+                    Research Program and contributes to the health research effort by raising awareness of 
+                    <span style="padding: 0px; font-style: italic;">All of Us.</span> 
+                </mj-text>
+            </mj-column>
+
+            <mj-column padding-bottom="28px">
+                <mj-text>
+                    <span style="padding: 0px; font-style: italic;">All of Us</span> 
+                     is combining science and diversity, including groups of people 
+                     who have been left out of health research in the past, 
+                     which means they will help researchers learn more than ever before 
+                     about why ALL types of people stay healthy or get sick.  
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        /* RED BACKGROUND AND BUTTON */
+        <mj-section background-color="#c00">
+            <mj-column width="95%" padding-top="28px" padding-bottom="28px">
+                <mj-text color="#fff" font-size="18px" line-height="27px" align="center">
+                    Fortunately, there’s still time for you to join and 
+                    be a partner in one of the biggest health research programs ever.
+                </mj-text>
+            </mj-column>
+
+            <mj-column >
+                <mj-button 
+                    padding-bottom="20px" 
+                    background-color="#fff" 
+                    color="#000" 
+                    font-size="18px" 
+                    font-weight="bold" 
+                    border-radius="20px" 
+                    href="#" 
+                    target="_blank">
+                    <mj-text padding="10px 35px">
+                        Join <i>All of Us</i> Research
+                    </mj-text>
+                </mj-button>
+            </mj-column>
+        </mj-section>
+
+        /* BANNER IMAGE */
+        <mj-section>
+            <mj-column padding-top="28px" padding-bottom="15px">
+                <mj-image 
+                    src="./images/mini-banner-image.png" 
+                    alt="CVS Health"
+                    title="CVS Health" />
+            </mj-column>
+        </mj-section>
+
+        /* ALL RIGHTS RESERVED */
+        <mj-section>
+            <mj-column padding-bottom="40px">
+                <mj-text>
+                    ©2022 CVS Health. All rights reserved. <br>
+                    One CVS Drive, Woonsocker, RI 02895
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        /* FOOTER PARAGRAPH */
+        <mj-section>
+            <mj-column width="2%" css-class="asterisk-width">
+                <mj-text>
+                    *
+                </mj-text>
+            </mj-column>
+
+            <mj-column width="90%" padding-bottom="24px">
+                <mj-text>
+                    FOR THE SAFETY OF CLINICAL RESEARCH STUDIES: 
+                    The safety and scientific validity of a research study 
+                    are the responsibility of the study sponsor and investigators. 
+                    CVS Health®  and its affiliates cannot guarantee any particular 
+                    outcome or benefit from a research study. Choosing to participate 
+                    in a research study is a personal decision. Before participating 
+                    in a research study, you should know all of the risks and 
+                    potential benefits and should talk to your health care 
+                    provider and other trusted advisors. 
+                </mj-text>
+            </mj-column>
+
+            <mj-column padding-bottom="24px">
+                <mj-text>
+                    Nothing in the content of this message should be considered, 
+                    or used as a substitute for, medical advice, diagnosis, 
+                    treatment or a product offering by CVS Health or its affiliates. 
+                    The information does not constitute the practice of any medical, 
+                    nursing or other professional health care advice, diagnosis 
+                    or treatment. All medical decisions are exclusively 
+                    the responsibility of the treating physician.
+                </mj-text>
+            </mj-column>
+
+            <mj-column padding-bottom="24px">
+                <mj-text>
+                    CVS Clinical Trial Services™  is sending this message to you 
+                    on behalf of one or more of the following CVS Health 
+                    covered entities with which you have a relationship: 
+                    CVS Pharmacy®, CVS Caremark®, Aenta®, MinuteClinic®, 
+                    Coram®, CVS Specialty®.
+                </mj-text>
+            </mj-column>
+
+            <mj-column width="90%" padding-bottom="24px">
+                <mj-text font-size="12px">
+                    View our <a href="#" target="_blank" style=
+                        "text-decoration: none; 
+                        color:#000; 
+                        font-weight: bold;
+                        text-decoration: underline;">privacy policy</a> <br>
+                        If you no longer wish to receive emails from 
+                        CVS Health Clinical Trial Services, you can 
+                        <a href="#" target="_blank" style=
+                        "text-decoration: none; 
+                        color:#000;
+                        font-weight: bold;
+                        text-decoration: underline;">unsubscribe</a>
+                </mj-text>
+            </mj-column>
+
+            <mj-column padding-bottom="28px">
+                <mj-text>
+                    CCG CTS-0040C (2/22)
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        /* BANNER IMAGE */
+        <mj-section></mj-section>
+    </mj-body>
+</mjml>
