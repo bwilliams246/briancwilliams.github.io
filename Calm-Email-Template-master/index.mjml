@@ -1,0 +1,303 @@
+<mjml>
+    <mj-head>
+        <mj-attributes>
+            /* GLOBAL EMEMENT STYLES */
+            <mj-section padding='0px'></mj-section>
+            <mj-column padding='0px' width='85%'></mj-column>
+            <mj-text padding='0px' align='center'></mj-text>
+            <mj-button padding='0px' href='#' target='_blank' background-color='#fff' border-radius='50px' color='#333' font-size='20px' ></mj-button>
+            <mj-image padding='0px' />
+
+            /* MJ-CLASS STYLES */
+            <mj-class name="blue-background" background-url='./images/Calm Background.jpg' />
+            <mj-class name="blue-border" border-bottom='linear-gradient(90deg, rgba(88,118,234,1) 0%, rgba(58,173,233,1) 100%);' />
+            <mj-class name="h2-font" font-size='26px' font-weight='400' line-height='37px' color='#fff' />
+            <mj-class name="parag-font" font-size='18px' line-height='28px' color='#fff' />
+            <mj-class name="column-parag" color='#717171' font-size='16px' line-height='25px' align='left' />
+            <mj-class name="column-header" color='#333' font-size='18px' line-height='25px' align='left' />
+            <mj-class name="column-link" color='#389FE8'  />
+            <mj-class name="column-cc" color='#717171' font-size='11px' font-style='italic' line-height='2.4rem' align='left' />
+            <mj-class name="footer-font" color='#717171' font-size='14px' font-weight='400' line-height='18px' />
+            <mj-class name="blue-btn" background-color='linear-gradient(15deg, rgba(80,104,228,1) 0%, rgba(58,181,234,1) 100%);' />
+        </mj-attributes>
+
+        <mj-style>
+            .column-padding-left {
+                padding-left: 5%!important;
+            }
+
+            .column-padding-right {
+                padding-right: 5%!important;
+            }
+
+            @media screen and (max-width: 479.98px) {
+                .mobile-width-90-per {
+                    width: 90% !important;
+                }
+
+                .mobile-width-85-per {
+                    width: 85% !important;
+                }
+
+                .mobile-width-80-per {
+                    width: 80% !important;
+                }
+
+                .column-img-width {
+                    width: 375px !important;
+                }
+
+                .mobile-width-70-px {
+                    width: 70px !important;
+                }
+
+                .column-padding-left,
+                .column-padding-right {
+                    padding: 0px !important;
+                }
+            }
+        </mj-style>
+    </mj-head>
+
+    <mj-body background-color='#f8f8fa'>
+        /* BLUE STRIP */
+        <mj-section full-width='full-width' background-url='./images/blue-strip.png'>
+            <mj-column width="100%">
+                <mj-text>
+                    <div style='padding: 0px; height:3px'></div>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        /* CALM LOGO */
+        <mj-section full-width='full-width' background-color='#fff'>
+            <mj-column padding='17px 0px'>
+                <mj-image 
+                    src="./images/calm-logo.png" 
+                    alt="Calm Logo"
+                    title='Calm Logo'
+                    href='#'
+                    target='_blank'
+                    width='47px' />
+            </mj-column>
+        </mj-section>
+
+        /* BLUE TABLE HEADER */
+        <mj-section mj-class='blue-background'>
+            /* DAILY JAY HEADER */
+            <mj-column padding-top='50px'>
+                <mj-image
+                     src="./images/daily-jay.png"
+                     alt="Daily Jay"
+                     alt="Title"
+                     width="190px" />
+            </mj-column>
+            /* 7 MINUTES HEADER */
+            <mj-column css-class='mobile-width-85-per'>
+                <mj-text mj-class='h2-font' padding-top='40px'>
+                    7 minutes every day to create your best self
+                </mj-text>
+            </mj-column>
+            /* PARAGRAPH */
+            <mj-column css-class='mobile-width-85-per' padding-top='35px'>
+                <mj-text mj-class='parag-font'>
+                    There's a new morning routine to improve your life and 
+                    you dont't need to close your eyes or sit a special way.
+                    It's just 7 minutes each day, no matter where you are or 
+                    what your're doing, you can unlock your true potential.  
+                </mj-text>
+            </mj-column>
+            /* BUTTON ONE */
+            <mj-column css-class='mobile-width-85-per' padding-top='37px'>
+                <mj-button>
+                    <mj-text>
+                        <div style='padding: 12px 38px;'> Try with 40% off</div>
+                    </mj-text>
+                </mj-button>
+            </mj-column>
+
+            /* JAY IMAGE */
+            <mj-column css-class='mobile-width-85-per' padding-top='50px'>
+                <mj-image
+                     src="./images/jay-img.png"
+                     alt="Jay Shetty"
+                     title='Jay Shetty'
+                     border='0' />
+            </mj-column>
+        </mj-section>
+        
+        /* JAY'S INFO SECTION */
+        <mj-section mj-class='blue-border' background-color='#fff'>
+            /* FORMER MONK HEADER */
+            <mj-column css-class='mobile-width-90-per' width='84.5%' padding-top='45px'>
+                <mj-text mj-class='h2-font' color='#000' align='left'>
+                    Join former monk, purpose coach and best-selling
+                    author Jay Shetty on a journey to...
+                </mj-text>
+            </mj-column>
+            /* BULLET POINTS */
+            <mj-column css-class='mobile-width-90-per' width="80%">
+                <mj-text align='left' mj-class='parag-font' color='#717171'>
+                    <ul>
+                        <li style='padding: 5px 0px'>Find calm and feel grounded in your busy world</li>
+                        <li style='padding: 5px 0px'>Plant beautiful intentions for an abundant life</li>
+                        <li style='padding: 5px 0px'>Take positive action toward the life of your dreams</li>
+                    </ul>
+                </mj-text>
+            </mj-column>
+            /* NEVER SKIP A BEAT */
+            <mj-column css-class='mobile-width-90-per'>
+                <mj-text mj-class='parag-font' color='#717171'>
+                    Never skip a beat in your self-careroutine with the Daily Jay
+                </mj-text>
+            </mj-column>
+            /* BUTTON TWO */
+            <mj-column padding-top='43px'>
+                <mj-button mj-class='blue-btn'>
+                    <mj-text>
+                        <div style='padding: 12px 38px; color: #fff;'> Try with 40% off</div>
+                    </mj-text>
+                </mj-button>
+            </mj-column>
+            /* MOBILE PHONE IMAGE */
+            <mj-column css-class='mobile-width-80-per' padding-top='63px'>
+                <mj-image
+                     src="./images/cellphone.png"
+                     alt="Mobile-Info"
+                     title="Mobile-Info" />
+            </mj-column>
+            /* MOBILE PHONE BORDER */
+            <mj-column css-class='mobile-width-85-per' width='90%' padding-bottom='52px'>
+                <mj-text>
+                    <div style='padding: 0px; height: 2px; background: linear-gradient(90deg, rgba(88,118,234,1) 0%, rgba(58,173,233,1) 100%);'></div>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        /* MORE WAYS HEADER */
+        <mj-section background-color='#fff'>
+            <mj-column padding-bottom='43px'>
+                <mj-text mj-class='h2-font' color='#333'>
+                    More Ways to Unlock Calm
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        /* TWO-COLUMN SECTION */
+        <mj-section background-color='#fff'>
+            <mj-column css-class='mobile-width-85-per column-padding-right' width="45%">
+                <mj-image
+                     src="./images/watches.jpg"
+                     alt="" 
+                     width='273px' />
+
+                <mj-text mj-class='column-header' padding-top='30px'>
+                    Fitbit is giving you free access to Calm 
+                    Premium!
+                </mj-text>
+
+                <mj-text mj-class='column-parag' padding-top='20px'>
+                    For a limited time, activate your Fitbit Premium membership
+                    when your purchase a new Sense advanced smartwatch on 
+                    Fitbit.com to recieve a 6-month subscription to Calm. 
+                </mj-text>
+
+                <mj-text mj-class='column-parag column-link' padding-top='30px'>
+                    <a href='#' target='_blank' style='text-decoration: none; color:'>Learn More</a>
+                </mj-text>
+
+                <mj-text mj-class='column-cc' padding-top='20px'>
+                    Calm Premium membership only available for non-active Calm 
+                    Premium members, while supplies last. See Fitbit.com/Sense.
+                </mj-text>
+            </mj-column>
+
+            <mj-column css-class='mobile-width-85-per column-padding-left' width="45%">
+                <mj-image
+                     src="./images/two-people.jpg"
+                     alt="" />
+
+                <mj-text mj-class='column-header' padding-top='30px'>
+                    Bring Calm to work, for free. 
+                </mj-text>
+
+                <mj-text mj-class='column-parag' padding-top='20px'>
+                    Help bring Calm to your work as an employee benefit. Simply
+                    connect us with a member of your HR team and you'll both 
+                    get a free year of Calm. 
+                </mj-text>
+
+                <mj-text mj-class='column-parag column-link' padding-top='30px'>
+                    <a href='#' target='_blank' style='text-decoration: none; color:'>Refer Your Company</a>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        /* DIVIDER */
+        <mj-section background-color='#fff'>
+            <mj-column css-class='mobile-width-90-per' width="90%" padding-top='65px' padding-bottom='46px'>
+                <mj-text>
+                    <div style='padding: 0px; border-top: 1px solid #333'></div>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        /* SOCIALS */
+        <mj-section background-color='#fff'>
+            <mj-column css-class='mobile-width-70-px' width="70px" css-class='social-width'>
+                <mj-image
+                     src="./images/insta-logo.png"
+                     alt="Instagram"
+                     title='Instagram'
+                     href='#'
+                     target='_blank'
+                     width="53px" />
+            </mj-column>
+            <mj-column css-class='mobile-width-70-px' width="70px">
+                <mj-image
+                     src="./images/faceboog-logo.png"
+                     alt="Instagram"
+                     title='Instagram'
+                     href='#'
+                     target='_blank'
+                     width="53px" />
+            </mj-column>
+            <mj-column css-class='mobile-width-70-px' width="70px">
+                <mj-image
+                     src="./images/twitter-logo.png"
+                     alt="Instagram"
+                     title='Instagram'
+                     href='#'
+                     target='_blank'
+                     width="53px" />
+            </mj-column>
+            <mj-column css-class='mobile-width-70-px' width="70px">
+                <mj-image
+                     src="./images/pintrest-logo.png"
+                     alt="Instagram"
+                     title='Instagram'
+                     href='#'
+                     target='_blank'
+                     width="53px" />
+            </mj-column>
+        </mj-section>
+
+        /* FOOTER INFO SECTION */
+        <mj-section background-color='#fff'>
+            <mj-column css-class='mobile-width-85-per' padding-top='50px' padding-bottom='45px'>
+                <mj-text mj-class='footer-font'>
+                    Have a question? Visit our <a href='#' target='_blank' style='text-decoration: none; color: #389fe8'>Help Center</a>  
+                </mj-text>
+
+                <mj-text mj-class='footer-font' padding-top='25px'>
+                    You recieved this email as a regestered user of Calm.com, Inc. <br>
+                    77 Geary St, Ste 300, San Francisco, CA 94108
+                </mj-text>
+
+                <mj-text padding-top='25px'>
+                    <a href='#' target='_blank' style='text-decoration: none; color: #389fe8'>Unsubscribe</a>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+    </mj-body>
+</mjml>
