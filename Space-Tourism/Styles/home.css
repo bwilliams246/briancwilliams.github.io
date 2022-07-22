@@ -1,0 +1,236 @@
+/* ------- Laptop Styling ------- */
+@media only screen and (min-width: 996px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        color: #f1f1f1;
+    }
+    
+    body {
+        max-height: 100vh;
+        background: url('../assets/images/home/background-home-desktop.jpg') no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    
+    .nav-container {
+        width: 95%;
+        margin: 51px auto 0 5%;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .nav-logo {
+        cursor: pointer;
+    }
+    
+    .navbar {
+        width: 60%;
+        display: flex;
+        color: #f1f1f1;
+        background-color: rgba(255,255,255,0.08);
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .item-container {
+        display: flex;
+        padding: 1rem 0;
+        border-bottom: 3px solid transparent;
+    }
+    
+    .item-container:hover {
+        cursor: pointer;
+        border-bottom: 3px solid #fff;
+    }
+    
+    .current-page {
+        border-bottom: 3px solid #fff;   
+    }
+    
+    .numbers-bold {
+        color: #fff;
+        font-weight: bold;
+        padding-right: .5rem;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    .nav-item {
+        color: #aaa;
+    }
+    
+    .nav-spacer {
+        padding-right: 2.9rem;
+    }
+    
+    .info-container {
+        width: 78%;
+        margin: 14% auto 0 auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .left-info-box {
+        max-width: 44.5%;
+    }
+    
+    .space-title {
+        margin: .5rem 0 0 3px;
+        font-size: 10rem;
+    }
+    
+    .home-sub-header {
+        font-size: 2.5rem;
+        font-weight: 100;
+    }
+    
+    .home-paragraph {
+        font-size: 20px;
+        margin-left: 4px;
+    }
+    
+    .right-info-box {
+        width: 250px;
+        height: 250px;
+        margin: 6rem 0 0 0;
+    }
+    
+    .right-explorer-circle {
+        background-color: #fff;
+        border: 1px solid #fff;
+        border-radius: 50%;
+        text-align: center;
+        margin: auto;
+    }
+    
+    .explore {
+        padding: 46% 11%;
+        color: #000;
+        font-size: 2rem;
+        font-family: 'Bellefair', serif;
+        font-style: normal;
+        font-weight: 100;
+    }
+}
+
+/* ------- Tablet Styling ------- */
+@media only screen and (max-width: 995px) {
+    body {
+        max-height: 100vh;
+        background: url('../assets/images/home/background-home-tablet.jpg') no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+
+    .info-container {
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .left-info-box {
+        width: 100%;
+        text-align: center;
+    }
+
+    .home-sub-header {
+        color: #D0D6F9;
+        margin: 4rem 0 1.58rem 0;
+    }
+
+    .space-title {
+        font-size: 10rem;
+    }
+
+    .home-paragraph {
+        width: 60%;
+        color: #D0D6F9;
+        margin: -20px auto 0 auto;
+        font-family: 'Barlow', sans-serif;
+        font-weight: 100;
+        line-height: 1.7rem;
+    }
+
+    .right-info-box {
+        width: 225px;
+        height: 225px;
+        margin: 12rem 0 0 0;
+    }
+    
+    .right-explorer-circle {
+        background-color: #fff;
+        border: 1px solid #fff;
+        border-radius: 50%;
+        text-align: center;
+        margin: auto;
+    }
+    
+    .explore {
+        padding: 46% 11%;
+        color: #000;
+        font-size: 2rem;
+        font-family: 'Bellefair', serif;
+        font-style: normal;
+        font-weight: 100;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    body {
+        max-height: 100vh;
+        background: url('../assets/images/home/background-home-mobile.jpg') no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+
+    .home-sub-header {
+        margin-bottom: 0;
+    }
+
+    .space-title {
+        font-size: 5rem;
+    }
+
+    .home-paragraph {
+        width: 100%;
+        font-size: .89rem;
+        margin-top: .8rem;
+        text-align: center;
+    }
+
+    .right-info-box {
+        width: 150px;
+        height: 150px;
+        margin: 3rem 0 0 0;
+    }
+
+    .explore {
+        padding: 42% 11%;
+        font-size: 1.25rem;
+    }
+}
+
+/* Desktop Styling */
+@media only screen and (min-width: 1439px) {
+    .home-sub-header,
+    .home-paragraph {
+        color: #D0D6F9;
+    }
+
+    .right-explorer-circle {
+        margin-top: 2rem;
+    }
+}

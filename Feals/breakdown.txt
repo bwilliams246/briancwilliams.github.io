@@ -1,0 +1,12 @@
+    Colors:
+brown-bg: #776561
+orange-bg: #F1A541
+beige-bg: #FDF7EE
+
+light-brown-font: #A19085
+light-orange-font: #E89E67
+dark-brown-font: #776561
+dark-orange-font: #F29B62
+
+    Fonts:
+font-family: Roboto, RobotoDraft, Helvetica, 

@@ -1,0 +1,6 @@
+/* ------- Phone Styling ------- */
+@media only screen and (max-width: 600px) {
+    .nav-line {
+        display: none;
+    }
+}

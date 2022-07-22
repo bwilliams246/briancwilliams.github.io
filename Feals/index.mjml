@@ -1,0 +1,255 @@
+<mjml>
+    <mj-head>
+        <mj-attributes>
+            <mj-section padding="0px"></mj-section>
+            <mj-column padding="0px"></mj-column>
+            <mj-text padding="0px" color="#fff" font-size="18px" align="center" line-height="28px"></mj-text>
+            <mj-button padding="0px"></mj-button>
+            <mj-image padding="0px" />
+
+            <mj-class name="header" font-size="42px" font-weight="300"/>
+        </mj-attributes>
+
+        <mj-style>
+            @media screen and (max-width: 479.98px) {
+                .mobile-socials {
+                    width: 15% !important;
+                }
+
+                .mobile-width {
+                    width: 75% !important;
+                }
+
+                .mobile-button {
+                    padding-left: 0px !important;
+                    padding-right: 0px !important;
+                    width: 80% !important;
+                }
+            }
+        </mj-style>
+    </mj-head>
+    
+    <mj-body>
+        /* BANNER SECTION */
+        <mj-section background-color="#776561">
+            <mj-column width="80%" padding-top="15px" padding-bottom="15px">
+                <mj-text>
+                    Limited Time: Get a gift with your purchase of Focus Melts!
+                    While supplies last. 
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        /* FEELS LOGO */
+        <mj-section background-color="linear-gradient(120deg, rgba(240,161,66,1) 0%, rgba(253,180,73,1) 87%)">
+            <mj-column padding-top="55px" padding-bottom="45px">
+                <mj-image
+                     src="./images/Feels Logo.png"
+                     alt="Feals"
+                     title="Feals"
+                     width="110px" />
+            </mj-column>
+        </mj-section>
+
+        /* FOCUS HEADER AND BUTTON */
+        <mj-section background-color="linear-gradient(120deg, rgba(240,161,66,1) 0%, rgba(253,180,73,1) 87%)">
+            <mj-column width="100%" padding-bottom="30px">
+                <mj-text mj-class="header">
+                    Feeling Distracted?
+                </mj-text>
+            </mj-column>
+
+            <mj-column width="100%" css-class="mobile-button">
+                <mj-button background-color="#fff" 
+                    color="#776561" 
+                    font-size="20px"
+                    href="#"
+                    target="_blank"
+                    padding-bottom="45px"
+                    border-radius="20px" 
+                    text-transform="uppercase">
+                    Focus Melts are here to help
+                </mj-button>
+            </mj-column>
+        </mj-section>
+
+        /* PARAGRAPH SECTION ONE */
+        <mj-section background-color="linear-gradient(120deg, rgba(240,161,66,1) 0%, rgba(253,180,73,1) 87%)">
+            <mj-column>
+                <mj-text padding-bottom="40px">
+                    We made The Focus Melts to help you get <br> 
+                    the most out of your day. They work in minutes <br>
+                    to naturally increase focus and help you cross <br>
+                    off your to-do's, so you can spend more time <br>
+                     doing  what really matters. 
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        /* SHOP BUTTON */
+        <mj-section background-color="linear-gradient(120deg, rgba(240,161,66,1) 0%, rgba(253,180,73,1) 87%)">
+            <mj-column>
+                <mj-button background-color="#fff" 
+                    color="#E89E67" 
+                    font-size="18px"
+                    href="#"
+                    target="_blank"
+                    padding-left="55px"
+                    padding-right="55px"
+                    padding-bottom="45px"
+                    border-radius="5px" 
+                    text-transform="uppercase">
+                    <p style="Margin: 0px; padding: 10px 30px">Shop Focus Melts</p>
+                </mj-button>
+            </mj-column>
+        </mj-section>
+
+        /* HANDS IMAGE */
+        <mj-section background-color="linear-gradient(120deg, rgba(240,161,66,1) 0%, rgba(253,180,73,1) 87%)">
+            <mj-column >
+                <mj-image 
+                    src="./images/Feels Hands.png" 
+                    alt="Two Hands"
+                    title="Two Hands" />
+            </mj-column>
+        </mj-section>
+
+        /* TESTIMONIAL HEADER */
+        <mj-section background-color="#FDF7EE">
+            <mj-column padding-top="45px" padding-bottom="35px">
+                <mj-text color="#F29B62" text-transform="uppercase">
+                    A customer's TESTIMONIAL:
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        /* STAR RATING IMAGE */
+        <mj-section background-color="#FDF7EE">
+            <mj-column padding-bottom="18px">
+                <mj-image 
+                    src="./images/five star review.png" 
+                    alt="Five Stars"
+                    title="Five Stars"
+                    width="85px" />     
+            </mj-column>
+        </mj-section>
+        
+        /* PARAHRAPH SECTION TWO */
+        <mj-section background-color="#FDF7EE">
+            <mj-column width="415px" padding-bottom="20px" css-class="mobile-width">
+                <mj-text color="#A19085" font-size="16.5px">
+                    "Whether I didn't get enough sleep the night before or 
+                    I am feeling a bit distracted, the Melts have been a 
+                    complete game changer for me. "
+                </mj-text>
+            </mj-column>
+
+            <mj-column>
+                <mj-text color="#776561" padding-bottom="50px">
+                    -Kurt G.
+                </mj-text>
+            </mj-column>
+
+            <mj-column width="100%">
+                <mj-button background-color="#E89E67" 
+                    color="#fff" 
+                    font-size="18px"
+                    href="#"
+                    target="_blank"
+                    padding-bottom="45px"
+                    border-radius="5px" 
+                    text-transform="uppercase">
+                    <p style="Margin: 0px; padding: 10px 30px">Shop The Melts</p>
+                </mj-button>
+            </mj-column>
+        </mj-section>
+
+        /* FOOTER HEADER */
+        <mj-section background-color="#FFF">
+            <mj-column padding-top="45px" padding-bottom="25px">
+                <mj-text font-size="24px" color="#F29B62">
+                    A better way to feel better. 
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        /* FOOTER SOCIALS */
+        <mj-section background-color="#FFF">
+            <mj-column width="15%" css-class="mobile-socials">
+                <mj-image 
+                    src="./images/insta-logo.png" 
+                    alt="Instagram"
+                    title="Instagram"
+                    align="right"
+                    href="#"
+                    target="_blank"
+                    width="40px"
+                    height="40px" />
+            </mj-column>
+
+            <mj-column width="15%" css-class="mobile-socials">
+                <mj-image 
+                    src="./images/facebook-logo.png" 
+                    alt="Facebook"
+                    title="Facebook"
+                    href="#"
+                    target="_blank"
+                    width="40px"
+                    height="40px" />
+            </mj-column>
+
+            <mj-column width="15%" css-class="mobile-socials">
+                <mj-image 
+                    src="./images/twitter-logo.png" 
+                    alt="Twitter"
+                    title="Twitter"
+                    align="left"
+                    href="#"
+                    target="_blank"
+                    width="40px"
+                    height="40px" />
+            </mj-column>
+        </mj-section>
+
+        /* FOOTER ADDRESS */
+        <mj-section background-color="#FFF">
+            <mj-column width="245px" padding-top='25px' css-class="mobile-width">
+                <mj-text font-size="14px" color="#999" padding-bottom="180px">
+                    © 2022 Feals, Inc. All Rights Reserved.
+                    1615 Platte St., Denver, CO 802002 <br>
+                    <a 
+                        href="#" 
+                        target="_blank" 
+                        style=
+                        "color: #999;
+                        padding: 20px 0px;
+                        text-decoration: none;">Unsubscribe
+                    </a>
+
+                    <br>
+
+                    <a 
+                        href="#" 
+                        target="_blank" 
+                        style=
+                        "color: #999;
+                        padding-right: 12px;
+                        text-decoration: none;">Contact Us 
+                    </a>
+                    
+                    | 
+                    
+                    <a 
+                        href="#" 
+                        target="_blank" 
+                        style=
+                        "color: #999;
+                        padding-left: 12px;
+                        text-decoration: none;">My Account
+                    </a>
+
+                </mj-text>
+            </mj-column>
+        </mj-section>
+    </mj-body>
+</mjml>
