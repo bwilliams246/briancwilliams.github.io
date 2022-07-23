@@ -1,303 +1,428 @@
 <mjml>
     <mj-head>
         <mj-attributes>
-            /* GLOBAL EMEMENT STYLES */
-            <mj-section padding='0px'></mj-section>
-            <mj-column padding='0px' width='85%'></mj-column>
-            <mj-text padding='0px' align='center'></mj-text>
-            <mj-button padding='0px' href='#' target='_blank' background-color='#fff' border-radius='50px' color='#333' font-size='20px' ></mj-button>
-            <mj-image padding='0px' />
+        /* Element Styles */
+            <mj-section padding="0px"></mj-section>
+            <mj-column padding="0px" ></mj-column>
+            <mj-text padding="0px" css-class="align-center"></mj-text>
+            <mj-image padding="0px" />
 
-            /* MJ-CLASS STYLES */
-            <mj-class name="blue-background" background-url='./images/Calm Background.jpg' />
-            <mj-class name="blue-border" border-bottom='linear-gradient(90deg, rgba(88,118,234,1) 0%, rgba(58,173,233,1) 100%);' />
-            <mj-class name="h2-font" font-size='26px' font-weight='400' line-height='37px' color='#fff' />
-            <mj-class name="parag-font" font-size='18px' line-height='28px' color='#fff' />
-            <mj-class name="column-parag" color='#717171' font-size='16px' line-height='25px' align='left' />
-            <mj-class name="column-header" color='#333' font-size='18px' line-height='25px' align='left' />
-            <mj-class name="column-link" color='#389FE8'  />
-            <mj-class name="column-cc" color='#717171' font-size='11px' font-style='italic' line-height='2.4rem' align='left' />
-            <mj-class name="footer-font" color='#717171' font-size='14px' font-weight='400' line-height='18px' />
-            <mj-class name="blue-btn" background-color='linear-gradient(15deg, rgba(80,104,228,1) 0%, rgba(58,181,234,1) 100%);' />
+        /* Mj-Classes */
+            <mj-class name="header-footer" width='740px'/>
+            <mj-class name="table-width" width="640px" css-class='mobile-table-width' background-color="#fff"/>
+            <mj-class name="parag-text" font-size='14px' line-height='24px' padding-left='25px' padding-right='25px' align='center'/>
+            <mj-class name="header-background" background-url="./images/header-background.jpg" width="740px" />
+            <mj-class name="footer-background-color" background-color="#003A9D" />
+            <mj-class name="header-title" text-align="left" font-size="22px" />
+            <mj-class name="footer-font" font-size='11px' line-height='22px' color='#999' text-align='center'  />
+            <mj-class name="blue-header" text-align='center' font-size="22px" color="#0072CE" />
+            <mj-class name="red-btn" background-color="#CD3D0F" />
         </mj-attributes>
 
         <mj-style>
-            .column-padding-left {
-                padding-left: 5%!important;
+            .align-left {
+                text-align: left !important;
             }
 
-            .column-padding-right {
-                padding-right: 5%!important;
+            .align-center {
+                text-align: center !important;
+            }
+
+            @media screen and (max-width: 639.98px) {
+                .prevent-collapse {
+                    width: 640px !important;
+                }
             }
 
             @media screen and (max-width: 479.98px) {
-                .mobile-width-90-per {
+                .hide {
+                    display: none;
+                }
+
+                .mobile-padding {
+                    padding: 0px !important;
+                }
+
+                .mobile-social-width {
+                    width: 40px !important;
+                }
+
+                .mobile-table-width {
                     width: 90% !important;
                 }
 
-                .mobile-width-85-per {
-                    width: 85% !important;
+                .mobile-width-4-px {
+                    width: 4% !important;
                 }
 
-                .mobile-width-80-per {
-                    width: 80% !important;
+                .mobile-width-12-px {
+                    width: 12% !important;
                 }
 
-                .column-img-width {
-                    width: 375px !important;
+                .mobile-width-85-px {
+                    width: 85px !important;
                 }
 
-                .mobile-width-70-px {
-                    width: 70px !important;
+                .mobile-width-84-px {
+                    width: 84% !important;
                 }
 
-                .column-padding-left,
-                .column-padding-right {
-                    padding: 0px !important;
+                .mobile-width-60-px {
+                    width: 60px !important;
                 }
             }
         </mj-style>
     </mj-head>
 
-    <mj-body background-color='#f8f8fa'>
-        /* BLUE STRIP */
-        <mj-section full-width='full-width' background-url='./images/blue-strip.png'>
-            <mj-column width="100%">
-                <mj-text>
-                    <div style='padding: 0px; height:3px'></div>
-                </mj-text>
-            </mj-column>
-        </mj-section>
+    <mj-body width='740px' background-color="#EEEEEE">
+        /* HEADER SECTION */
+        <mj-section mj-class="header-background">
+            /* SPACER */
+            <mj-column width="4%" css-class='mobile-width-4-px'></mj-column>
 
-        /* CALM LOGO */
-        <mj-section full-width='full-width' background-color='#fff'>
-            <mj-column padding='17px 0px'>
+            <mj-column padding-top="45px" width="12%" css-class="align- mobile-width-12-px">
                 <mj-image 
-                    src="./images/calm-logo.png" 
-                    alt="Calm Logo"
-                    title='Calm Logo'
+                    src="./images/PS Logo.png" 
+                    alt="PlayStation"
+                    title="PlayStation"
+                    width="40px" />
+            </mj-column>
+
+            <mj-column padding-top="60px" width="84%" css-class='mobile-width-84-px'>
+                <mj-text mj-class="header-title" color="#fff">
+                    Playstation Plus
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        /* HEADER SLASH IMAGE */
+        <mj-section>
+            <mj-column padding-bottom='45px'>
+                <mj-image 
+                    src="./images/Header Underline.jpg"
+                    css-class='prevent-collapse'
+                    width='740px' />
+            </mj-column>
+        </mj-section>
+
+        /* PLAYSTATION PLUS IMAGES */
+        <mj-section>
+            <mj-column mj-class='table-width'>
+                <mj-image
+                     src="./images/three-games.jpg"
+                     alt="discount"
+                     width='640px' />
+            </mj-column>
+        </mj-section>
+
+
+        /* MULTIPLAYER PARAGRAPH SECTION */
+        <mj-section>
+            <mj-column mj-class='table-width' padding-top='25px'>
+                <mj-text mj-class="blue-header" align='center'>
+                    Join the online multiplayer weekend
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        /* PARAGRAPH SECTION */
+        <mj-section >
+            <mj-column mj-class='table-width' padding-top='15px'>
+                <mj-text mj-class='parag-text' padding-bottom='30px'>
+					Take your favourite PS4 and PS5 games online right now - at no extra cost!
+                </mj-text>
+            </mj-column>
+
+            <mj-column mj-class='table-width' >
+                <mj-text mj-class='parag-text' padding-bottom='30px'>
+                    Until 23.59 on Sunday December 19, all players can enjoy 
+                    the online multiplayer modes in their games 
+                    – even if they don’t have a PlayStation Plus subscription.
+                </mj-text>
+            </mj-column>
+
+            <mj-column mj-class='table-width' >
+                <mj-text mj-class='parag-text' padding-bottom='30px'>
+                    So what’ll it be? Ready to cruise the streets of 
+                    Los Santos in Grand Theft Auto Online? 
+                    Or tackle your first online tournament in EA SPORTS FIFA 22? 
+                </mj-text>
+            </mj-column>
+
+            <mj-column mj-class='table-width' >
+                <mj-text mj-class='parag-text' padding-bottom='20px'>
+                    Simply start the game of your choice and select 
+                    an online mode to join in.
+                </mj-text>
+            </mj-column>
+
+            <mj-column mj-class='table-width'>
+                <mj-button 
+                    mj-class='red-btn'
+                    padding-top='0px'
+                    border-radius='20px'
                     href='#'
-                    target='_blank'
-                    width='47px' />
-            </mj-column>
-        </mj-section>
-
-        /* BLUE TABLE HEADER */
-        <mj-section mj-class='blue-background'>
-            /* DAILY JAY HEADER */
-            <mj-column padding-top='50px'>
-                <mj-image
-                     src="./images/daily-jay.png"
-                     alt="Daily Jay"
-                     alt="Title"
-                     width="190px" />
-            </mj-column>
-            /* 7 MINUTES HEADER */
-            <mj-column css-class='mobile-width-85-per'>
-                <mj-text mj-class='h2-font' padding-top='40px'>
-                    7 minutes every day to create your best self
-                </mj-text>
-            </mj-column>
-            /* PARAGRAPH */
-            <mj-column css-class='mobile-width-85-per' padding-top='35px'>
-                <mj-text mj-class='parag-font'>
-                    There's a new morning routine to improve your life and 
-                    you dont't need to close your eyes or sit a special way.
-                    It's just 7 minutes each day, no matter where you are or 
-                    what your're doing, you can unlock your true potential.  
-                </mj-text>
-            </mj-column>
-            /* BUTTON ONE */
-            <mj-column css-class='mobile-width-85-per' padding-top='37px'>
-                <mj-button>
-                    <mj-text>
-                        <div style='padding: 12px 38px;'> Try with 40% off</div>
+                    target='_blank'>
+                    <mj-text color='#fff'>
+                         Let's go
                     </mj-text>
                 </mj-button>
             </mj-column>
 
-            /* JAY IMAGE */
-            <mj-column css-class='mobile-width-85-per' padding-top='50px'>
-                <mj-image
-                     src="./images/jay-img.png"
-                     alt="Jay Shetty"
-                     title='Jay Shetty'
-                     border='0' />
+            <mj-column mj-class='table-width' padding-bottom='32px'>
+                <mj-text mj-class='parag-text' color='#999' font-size='11px'>
+		            Games sold separately.
+                </mj-text>
             </mj-column>
         </mj-section>
-        
-        /* JAY'S INFO SECTION */
-        <mj-section mj-class='blue-border' background-color='#fff'>
-            /* FORMER MONK HEADER */
-            <mj-column css-class='mobile-width-90-per' width='84.5%' padding-top='45px'>
-                <mj-text mj-class='h2-font' color='#000' align='left'>
-                    Join former monk, purpose coach and best-selling
-                    author Jay Shetty on a journey to...
+
+        /* DIVIDER */  
+        <mj-section>
+            <mj-column padding-top='35px'></mj-column>
+        </mj-section>
+
+        /* PS PLUS IMAGE */
+        <mj-section>
+            <mj-column mj-class='table-width'>
+                <mj-image 
+                    src="./images/Ps-Plus.jpg" 
+                    alt="PlayStation Plus"
+                    title="PlayStation Plus"
+                    width='640px' />
+            </mj-column>
+        </mj-section>
+
+        /* SAVINGS SECTION */
+        <mj-section>
+            <mj-column mj-class='table-width' padding-top='25px'>
+                <mj-text mj-class="blue-header" align='center'>
+                    Last chance to save
                 </mj-text>
             </mj-column>
-            /* BULLET POINTS */
-            <mj-column css-class='mobile-width-90-per' width="80%">
-                <mj-text align='left' mj-class='parag-font' color='#717171'>
-                    <ul>
-                        <li style='padding: 5px 0px'>Find calm and feel grounded in your busy world</li>
-                        <li style='padding: 5px 0px'>Plant beautiful intentions for an abundant life</li>
-                        <li style='padding: 5px 0px'>Take positive action toward the life of your dreams</li>
-                    </ul>
+        </mj-section>
+
+        /* PARAGRAPH SECTION TWO */
+        <mj-section >
+            <mj-column mj-class='table-width' padding-top='15px'>
+                <mj-text mj-class='parag-text' padding-bottom='30px'>
+					There’s still time to claim 50% off  12 months 
+                    of PlayStation Plus.*
                 </mj-text>
             </mj-column>
-            /* NEVER SKIP A BEAT */
-            <mj-column css-class='mobile-width-90-per'>
-                <mj-text mj-class='parag-font' color='#717171'>
-                    Never skip a beat in your self-careroutine with the Daily Jay
+
+            <mj-column mj-class='table-width' >
+                <mj-text mj-class='parag-text' padding-bottom='30px'>
+                    If you’re enjoying the online multiplayer weekend, 
+                    why not get yourself a subscription before this special offer 
+                    expires at 23.59 on December 19?
                 </mj-text>
             </mj-column>
-            /* BUTTON TWO */
-            <mj-column padding-top='43px'>
-                <mj-button mj-class='blue-btn'>
-                    <mj-text>
-                        <div style='padding: 12px 38px; color: #fff;'> Try with 40% off</div>
+
+            <mj-column mj-class='table-width' >
+                <mj-text mj-class='parag-text' padding-bottom='20px'>
+                    Subscribe now to access online multiplayer 
+                    in your favourite titles whenever you like, 
+                    AND start discovering the joy of our hand-picked monthly games. 
+                    This month, you can download 
+                </mj-text>
+            </mj-column>
+
+            <mj-column mj-class='table-width'>
+                <mj-button 
+                    mj-class='red-btn'
+                    border-radius='20px'
+                    padding-top="0px"
+                    href='#'
+                    target='_blank'>
+                    <mj-text color='#fff'>
+                         Save 50% now
                     </mj-text>
                 </mj-button>
             </mj-column>
-            /* MOBILE PHONE IMAGE */
-            <mj-column css-class='mobile-width-80-per' padding-top='63px'>
-                <mj-image
-                     src="./images/cellphone.png"
-                     alt="Mobile-Info"
-                     title="Mobile-Info" />
+
+            <mj-column mj-class='table-width' padding-bottom='32px'>
+                <mj-text mj-class='parag-text' color='#999' font-size='11px' line-height="16px">		            
+                    *Offer ends December 19. Recurring subscription fees charged 
+                    every 12 months at then-current PS Store price until cancelled.
+                    Not available to existing PlayStation®Plus subscribers. 
+                    Limit 1 per user. Full terms apply: 
+                    <a style='text-decoration: none; color: #1155cc'>play.st/Plus1250dec</a><br>
+                    **December monthly games available until January 3, 2022.
+                </mj-text>
             </mj-column>
-            /* MOBILE PHONE BORDER */
-            <mj-column css-class='mobile-width-85-per' width='90%' padding-bottom='52px'>
+        </mj-section>
+
+        /* DIVIDER */  
+        <mj-section>
+            <mj-column padding-top='35px'></mj-column>
+        </mj-section>
+
+        /* FOOTER SLASH IMAGE */
+        <mj-section>
+            <mj-column width='100%'>
+                <mj-image 
+                    src="./images/Foter Underline.jpg" 
+                    width='740px'
+                    alt="" />
+            </mj-column>
+        </mj-section>
+
+        /* PLAYSTATION LOGOS */
+        <mj-section mj-class="footer-background-color">
+            <mj-column width="4%"></mj-column>
+
+            <mj-column width='12%'>
+                <mj-image src="./images/Ps Logo.png" alt="" width='40px' />
+            </mj-column>
+
+            <mj-column width="45%"></mj-column>
+
+            <mj-column width="39%">
+                <mj-image src="./images/no-limits.png" alt="" width='176px' />
+            </mj-column>
+        </mj-section>
+
+        /* BORDERLINE / DIVIDER */
+        <mj-section mj-class="footer-background-color">
+            <mj-column width='85%' padding-top='18px' padding-bottom='27px'>
                 <mj-text>
-                    <div style='padding: 0px; height: 2px; background: linear-gradient(90deg, rgba(88,118,234,1) 0%, rgba(58,173,233,1) 100%);'></div>
-                </mj-text>
-            </mj-column>
-        </mj-section>
-
-        /* MORE WAYS HEADER */
-        <mj-section background-color='#fff'>
-            <mj-column padding-bottom='43px'>
-                <mj-text mj-class='h2-font' color='#333'>
-                    More Ways to Unlock Calm
-                </mj-text>
-            </mj-column>
-        </mj-section>
-
-        /* TWO-COLUMN SECTION */
-        <mj-section background-color='#fff'>
-            <mj-column css-class='mobile-width-85-per column-padding-right' width="45%">
-                <mj-image
-                     src="./images/watches.jpg"
-                     alt="" 
-                     width='273px' />
-
-                <mj-text mj-class='column-header' padding-top='30px'>
-                    Fitbit is giving you free access to Calm 
-                    Premium!
-                </mj-text>
-
-                <mj-text mj-class='column-parag' padding-top='20px'>
-                    For a limited time, activate your Fitbit Premium membership
-                    when your purchase a new Sense advanced smartwatch on 
-                    Fitbit.com to recieve a 6-month subscription to Calm. 
-                </mj-text>
-
-                <mj-text mj-class='column-parag column-link' padding-top='30px'>
-                    <a href='#' target='_blank' style='text-decoration: none; color:'>Learn More</a>
-                </mj-text>
-
-                <mj-text mj-class='column-cc' padding-top='20px'>
-                    Calm Premium membership only available for non-active Calm 
-                    Premium members, while supplies last. See Fitbit.com/Sense.
-                </mj-text>
-            </mj-column>
-
-            <mj-column css-class='mobile-width-85-per column-padding-left' width="45%">
-                <mj-image
-                     src="./images/two-people.jpg"
-                     alt="" />
-
-                <mj-text mj-class='column-header' padding-top='30px'>
-                    Bring Calm to work, for free. 
-                </mj-text>
-
-                <mj-text mj-class='column-parag' padding-top='20px'>
-                    Help bring Calm to your work as an employee benefit. Simply
-                    connect us with a member of your HR team and you'll both 
-                    get a free year of Calm. 
-                </mj-text>
-
-                <mj-text mj-class='column-parag column-link' padding-top='30px'>
-                    <a href='#' target='_blank' style='text-decoration: none; color:'>Refer Your Company</a>
-                </mj-text>
-            </mj-column>
-        </mj-section>
-
-        /* DIVIDER */
-        <mj-section background-color='#fff'>
-            <mj-column css-class='mobile-width-90-per' width="90%" padding-top='65px' padding-bottom='46px'>
-                <mj-text>
-                    <div style='padding: 0px; border-top: 1px solid #333'></div>
+                    <div style='width: 100%; border: .5px solid #fff;'></div>
                 </mj-text>
             </mj-column>
         </mj-section>
 
         /* SOCIALS */
-        <mj-section background-color='#fff'>
-            <mj-column css-class='mobile-width-70-px' width="70px" css-class='social-width'>
-                <mj-image
-                     src="./images/insta-logo.png"
-                     alt="Instagram"
-                     title='Instagram'
-                     href='#'
-                     target='_blank'
-                     width="53px" />
+        <mj-section mj-class="footer-background-color">
+            <mj-column width='45px' css-class='mobile-social-width'>
+                <mj-image 
+                    src="./images/twitter-logo.png" 
+                    alt="Twitter"
+                    title='Twitter'
+                    width='30px'
+                    href='#'
+                    target='_blank' />
             </mj-column>
-            <mj-column css-class='mobile-width-70-px' width="70px">
-                <mj-image
-                     src="./images/faceboog-logo.png"
-                     alt="Instagram"
-                     title='Instagram'
-                     href='#'
-                     target='_blank'
-                     width="53px" />
+            <mj-column width='45px' css-class='mobile-social-width'>
+                <mj-image 
+                    src="./images/insta-logo.png" 
+                    alt="Instagram"
+                    title='Instagram'
+                    width='30px'
+                    href='#'
+                    target='_blank' />
             </mj-column>
-            <mj-column css-class='mobile-width-70-px' width="70px">
-                <mj-image
-                     src="./images/twitter-logo.png"
-                     alt="Instagram"
-                     title='Instagram'
-                     href='#'
-                     target='_blank'
-                     width="53px" />
+            <mj-column width='45px' css-class='mobile-social-width'>
+                <mj-image 
+                    src="./images/youtube-logo.png" 
+                    alt="Youtube"
+                    title='Youtube'
+                    width='30px'
+                    href='#'
+                    target='_blank' />
             </mj-column>
-            <mj-column css-class='mobile-width-70-px' width="70px">
+            <mj-column width='45px' css-class='mobile-social-width'>
+                <mj-image 
+                    src="./images/facebook-logo.png" 
+                    alt="Facebook"
+                    title='Facebook'
+                    width='30px'
+                    href='#'
+                    target='_blank' />
+            </mj-column>
+            <mj-column width='45px' css-class='mobile-social-width'>
+                <mj-image 
+                    src="./images/snap-logo.png" 
+                    alt="Snapchat"
+                    title='Snapchat'
+                    width='30px'
+                    href='#'
+                    target='_blank' />
+            </mj-column>
+        </mj-section>
+
+        /* ESRB RATING */
+        <mj-section mj-class='footer-background-color'>
+            <mj-column padding-top='20px' padding-bottom='20px'>
                 <mj-image
-                     src="./images/pintrest-logo.png"
-                     alt="Instagram"
-                     title='Instagram'
-                     href='#'
-                     target='_blank'
-                     width="53px" />
+                    src="./images/game-rating.png" 
+                    alt="MSRB"
+                    title='MSRB'
+                    width='136px' />
             </mj-column>
         </mj-section>
 
-        /* FOOTER INFO SECTION */
-        <mj-section background-color='#fff'>
-            <mj-column css-class='mobile-width-85-per' padding-top='50px' padding-bottom='45px'>
-                <mj-text mj-class='footer-font'>
-                    Have a question? Visit our <a href='#' target='_blank' style='text-decoration: none; color: #389fe8'>Help Center</a>  
+        /* ADDITIONAL LINKS */
+        <mj-section mj-class='footer-background-color'>
+            <mj-column width='85px' css-class='mobile-width-85-px'>
+                <mj-text color='#fff' font-size='11px'>
+                    <a href='#' target='_blank' style='text-decoration: none; color: #fff;'>View online</a>
+                    <span style='padding: 0px 10px;'>|</span>
                 </mj-text>
+            </mj-column>
 
-                <mj-text mj-class='footer-font' padding-top='25px'>
-                    You recieved this email as a regestered user of Calm.com, Inc. <br>
-                    77 Geary St, Ste 300, San Francisco, CA 94108
+            <mj-column width='60px' css-class='mobile-width-60-px'>
+                <mj-text color='#fff' font-size='11px'>
+                    <a href='#' target='_blank' style='text-decoration: none; color: #fff;'>Terms</a>
+                    <span style='padding: 0px 10px;'>|</span>
                 </mj-text>
+            </mj-column>
 
-                <mj-text padding-top='25px'>
-                    <a href='#' target='_blank' style='text-decoration: none; color: #389fe8'>Unsubscribe</a>
+            <mj-column width='85px' css-class='mobile-width-85-px'>
+                <mj-text color='#fff' font-size='11px'>
+                    <a href='#' target='_blank' style='text-decoration: none; color: #fff;'>Personalize</a>
+                    <span style='padding: 0px 10px;'>|</span>
+                </mj-text>
+            </mj-column>
+
+            <mj-column width='85px' css-class='mobile-width-85-px' padding-bottom='24px'>
+                <mj-text color='#fff' font-size='11px'>
+                    <a href='#' target='_blank' style='text-decoration: none; color: #fff;'>Unsubscribe</a>
                 </mj-text>
             </mj-column>
         </mj-section>
+
+        /* FOOTER INFO */
+        <mj-section>
+            <mj-column width="95%" css-class='mobile-table-width' padding-top='24px'>
+                <mj-text mj-class='footer-font' align='center'>
+                    ©2021 Sony Interactive Entertainment LLC.
+                </mj-text>
+            </mj-column>
+
+            <mj-column width="95%" css-class='mobile-table-width' padding-top='24px'>
+                <mj-text mj-class='footer-font' align='center'>
+                    "PlayStation Family Mark", "PlayStation", "PS5", 
+                    "PS4 logo" and "Play Has No Limits" are registered trademarks
+                    or trademarks of Sony Interactive Entertainment Inc. 
+                </mj-text>
+            </mj-column>
+
+            <mj-column width="95%" css-class='mobile-table-width' padding-top='24px'>
+                <mj-text mj-class='footer-font' align='center'>
+                    All games featured are trademarked and copyrighted 
+                    properties of their respective publishers and/or licensors.
+                </mj-text>
+            </mj-column>
+
+            <mj-column width="95%" css-class='mobile-table-width' padding-top='24px'>
+                <mj-text mj-class='footer-font' align='center'>
+					This e-mail message has been delivered from a 
+                    send-only address. Please do not reply to this message. 
+                    For more information about your account, please 
+                    visit the link below. Support: 
+                    <a href='#' target='_blank' style='text-decoration: none; color: #999; text-decoration: underline;'> https://www.playstation.com/corporate/contactus/</a>
+                </mj-text>
+            </mj-column>
+
+            <mj-column width="95%" css-class='mobile-table-width' padding-top='24px' padding-bottom='24px'>
+                <mj-text mj-class='footer-font' align='center'>
+                    Sony Interactive Entertainment LLC,  2207 Bridgepointe Pkwy, 
+                    San Mateo, CA 94404, USA
+                    <br>
+                    <a href='#' target='_blank' style='text-decoration: none; color: #999;'> https://www.playstation.com</a>.
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
     </mj-body>
 </mjml>
