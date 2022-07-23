@@ -82,7 +82,7 @@
 
             <mj-column padding-top="45px" width="12%" css-class="align- mobile-width-12-px">
                 <mj-image 
-                    src="./images/PS Logo.png" 
+                    src="./images/Ps Logo.png" 
                     alt="PlayStation"
                     title="PlayStation"
                     width="40px" />
