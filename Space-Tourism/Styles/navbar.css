@@ -264,6 +264,12 @@
 }
 
 /* Desktop Styling */
+@media only screen and (min-width: 996px) and (max-width: 1219px) {
+    .nav-line {
+        width: 32.35%;
+    }
+}
+
 @media only screen and (min-width: 1439px) {
     .nav-line {
         width: 29rem;
