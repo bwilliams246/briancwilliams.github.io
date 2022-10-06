@@ -1,0 +1,17 @@
+    Colors
+Body Background Color: #EAF0F6
+Font Color: #23496D
+Footer Font Color 1: #234987
+Footer Font Color 2: #00A4BD
+Button Color 1: #F0047F
+Button Color 2: #F5980D
+
+    Hyperlinks
+jamstack logo: https://communications.netlify.com/e3t/Ctc/I6+113/cVvsj04/VWZhJq6sTzzMW2Xf0-p51Td9MW20x2Jc4MpYyQMVmxWp3q3n_V1-WJV7CgWLpW1RJ6fT1B5lhCW371yrX1WgxVyW31bP1_8hG8JyVChX941FHHDTW12lcWf8n9rxLVjyCmJ2ZrQcyW6sr0G63M5m7qW5NkflM7pm60nW7ZQkjh5pX4k6VfKNCR2glLSCW2qyPsn7JckLLN1Zn5lwMjtzZVQYBkb4lCh5RW3dz0cS5w74pZW3mxChr1-fbptVN_Zjk2TmKYcN86nGdR5NbzfVWn5vc190qmWW6qrQP67sWZtLW7nJmBk3HFFyWVSbGTL8VwnyxW2QKlDk275svkW2__3M53JhJHJW8QLJ2_1dcM26W50T3GR8BXmcKW27msYz8zGBMD3k0j1
+main image one: https://jamstack.org/conf/?utm_campaign=Event%20-%20Hosted%20-%202022-11%20-%20Jamstack%20Conf%20-%20In%20Person&utm_medium=email&_hsmi=219397709&_hsenc=p2ANqtz-_2uV8FdEbtRHVNRceac4AW99VS7c3B_L_qcZVtlTFV_a0Dxn46IEuyd67gs-EUlHK9wxEyFDNayFX2IPcEfB844pv1oA&utm_content=219397709&utm_source=hs_email
+button one: https://jamstack.org/conf/?utm_campaign=Event%20-%20Hosted%20-%202022-11%20-%20Jamstack%20Conf%20-%20In%20Person&utm_medium=email&_hsmi=219397709&_hsenc=p2ANqtz-8OIxAhAnrvDbc_q4CfYedmA7rRSeeFD8eew81uBX2-jRzTmR1phoYFSFNovckbtD8iBvbtZG9tLIs7DCmyfZs75-9R3g&utm_content=219397709&utm_source=hs_email
+mid-image banner: https://docs.google.com/forms/d/e/1FAIpQLSc-z50GyD7zXzr_JCn2M1NBFZ-h65kSdu7zn43V1u2qAKO3ew/closedform
+button two: https://docs.google.com/forms/d/e/1FAIpQLSc-z50GyD7zXzr_JCn2M1NBFZ-h65kSdu7zn43V1u2qAKO3ew/closedform
+main image two: com/jfe/form/SV_0BRbhN47gyZWYNo?Source=dedicated_email&utm_campaign=Event%20-%20Hosted%20-%202022-11%20-%20Jamstack%20Conf%20-%20In%20Person&utm_medium=email&_hsmi=219397709&_hsenc=p2ANqtz--ftMUuvHWGk_qsjRwxCfT3qI9xn6utBLjaxv4gmaDQfyvIxOPt_qzAFpKUeS4Ipc--KdccBv6rk2p1m9C-6poz5BtALw&utm_content=219397709&utm_source=hs_email
+unsubscribe link: https://communications.netlify.com/hs/manage-preferences/unsubscribe-all?languagePreference=en&d=VnfP3T6FH7k0VT7yB33ZY6VBW3_Zwjl1S2dz3W3_R5921JxwY5MWstCK88nVjVQtG1l7s1X1BN4VTmNVD96kwW9djbz64ZZXjxW5B22NW5R4VqtV1yf0N2_-k1vW49N2493gd4xzW7CtSr22V8Mj81f3&v=3&utm_campaign=Event%20-%20Hosted%20-%202022-11%20-%20Jamstack%20Conf%20-%20In%20Person&utm_source=hs_email&utm_medium=email&utm_content=219397709&_hsenc=p2ANqtz-8b7gYgMjtn0eD57Dp0yq2loqG-S1efeCrZ8Nz2d6qOb0Aj1d2ZojWRcJIbgm5WlQCIQM_Er2t8w4guBmYPiAu50AXBgQ&_hsmi=219397709
+preferences link: https://communications.netlify.com/hs/manage-preferences/unsubscribe?languagePreference=en&d=VnfP3T6FH7k0VT7yB33ZY6VBW3_Zwjl1S2dz3W3_R5921JxwY5MWstCK88nVjVQtG1l7s1X1BN4VTmNVD96kwW9djbz64ZZXjxW5B22NW5R4VqtV1yf0N2_-k1vW49N2493gd4xzW7CtSr22V8Mj81f3&v=3&utm_campaign=Event%20-%20Hosted%20-%202022-11%20-%20Jamstack%20Conf%20-%20In%20Person&utm_source=hs_email&utm_medium=email&utm_content=219397709&_hsenc=p2ANqtz-8b7gYgMjtn0eD57Dp0yq2loqG-S1efeCrZ8Nz2d6qOb0Aj1d2ZojWRcJIbgm5WlQCIQM_Er2t8w4guBmYPiAu50AXBgQ&_hsmi=219397709
