@@ -42,7 +42,7 @@ body {
 .first-container {
     width: 100%;
     margin: 0 auto;
-    background: url(/images/bg-pattern-intro-desktop.svg) left no-repeat , linear-gradient(90deg, var(--very-light-red) , var(--light-red));
+    background: url(https://bwilliams246.github.io/Blogr//images/bg-pattern-intro-desktop.svg) left no-repeat , linear-gradient(90deg, var(--very-light-red) , var(--light-red));
     background-size: 150%;
     border-radius: 0px 0px 0px 120px;
 }
@@ -246,7 +246,7 @@ body {
 
 .column-img {
     width: 50%;
-    background: url(/images/illustration-editor-desktop.svg) no-repeat;
+    background: url(https://bwilliams246.github.io/Blogr//images/illustration-editor-desktop.svg) no-repeat;
     background-size: 128%;
     background-position: left -20% top 50%;
     z-index: 10;
@@ -254,7 +254,7 @@ body {
 
 /* THIRD CONTAINER */
 .third-container {
-    background: url(/images/bg-pattern-circles.svg) bottom left no-repeat , linear-gradient(var(--very-dark-desaturated-blue) , var(--very-dark-gray-blue));
+    background: url(https://bwilliams246.github.io/Blogr//images/bg-pattern-circles.svg) bottom left no-repeat , linear-gradient(var(--very-dark-desaturated-blue) , var(--very-dark-gray-blue));
     border-radius: 0px 80px 0px 80px;
 }
 
@@ -306,7 +306,7 @@ body {
 
 .column-img-three {
     width: 50%;
-    background: url(/images/illustration-laptop-desktop.svg) no-repeat;
+    background: url(https://bwilliams246.github.io/Blogr//images/illustration-laptop-desktop.svg) no-repeat;
     background-size: 128%;
     background-position: right -20% top 50%;
     background-repeat: no-repeat;
@@ -487,7 +487,7 @@ body {
         padding: 25%;
         background-size: 100%;
         background-position: center;
-        background-image: url(/images/illustration-editor-mobile.svg);
+        background-image: url(https://bwilliams246.github.io/Blogr//images/illustration-editor-mobile.svg);
     }
 
     .column-paragraphs,
@@ -526,7 +526,7 @@ body {
         padding: 25%;
         background-size: 100%;
         background-position: center;
-        background-image: url(/images/illustration-laptop-mobile.svg);
+        background-image: url(https://bwilliams246.github.io/Blogr//images/illustration-laptop-mobile.svg);
     }
 
     /* FOOTER */
