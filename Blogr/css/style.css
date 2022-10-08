@@ -342,6 +342,19 @@ body {
     color: #f1f1f1;
 }
 
+/* Animations */
+.two-columns {
+    transform: translateY(30%);
+    opacity: 0;
+    transition: 1s ease-in;
+}
+
+.visible {
+    transform: translateY(0%);
+    opacity: 1;
+    transition: 1s ease-out;
+}
+
 /* TABLET STYLES */
 @media screen and (max-width: 768.98px) {
     /* FIRST CONTAINER */
