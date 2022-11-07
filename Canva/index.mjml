@@ -1,0 +1,374 @@
+<mjml>
+    <mj-head>
+        <mj-title>Canva | Email</mj-title>
+
+        <mj-attributes>
+            /* MJML ELEMENT STYLES */
+            <mj-section background-color="#fff" padding="0px"></mj-section>
+            <mj-column width="85%" padding="0px" ></mj-column>
+            <mj-group width="85%"></mj-group>
+            <mj-text padding="0px" color="#0E1318" font-size="14px" css-class="mobile-font"></mj-text>
+            <mj-button background-color="#7D2AE8" padding="9px 14px"></mj-button>
+
+            /* MJML CLASS STYLES */
+            <mj-class name="nav-button" background-color="#fff" color="gray" font-size="14px" border="1px solid #333" href="#" target="_blank" align="right" />
+            <mj-class name="parag-font" line-height="160%" font-size="14px" />
+            <mj-class name="rounded-numbers" padding="10px" background-color="#EDF0F2" border-radius="50%" />
+            <mj-class name="footer-section" background-color="#EDF0F2" />
+            <mj-class name="footer-width" width="75%" align="center" />
+            <mj-class name="footer-font-color" color="#5B5559" />
+        </mj-attributes>
+
+        <mj-style>
+            @media screen and (max-width: 479.98px) {
+                .mobile-two-columns {
+                    width: 50% !important;
+                }
+
+                .mobile-width-25-per {
+                    width: 25% !important;
+                }
+
+                .mobile-width-45-per {
+                    width: 45% !important;
+                }
+
+                .mobile-width-80-per {
+                    width: 80% !important;
+                }
+
+                .mobile-width-85-per {
+                    width: 85% !important;
+                }
+
+                .mobile-width-90-per {
+                    width: 90% !important;
+                }
+
+                .mobile-width-95-per {
+                    width: 90% !important;
+                }
+
+                .mobile-width-32-px {
+                    width: 32px !important;
+                }
+
+                .mobile-font {
+                    font-size: 12px !important;
+                }
+
+                .hide {
+                    display: none !important;
+                }
+            }
+        </mj-style>
+    </mj-head>
+
+    <mj-body background-color="#EDF0F2">
+        /* NAVBAR */
+        <mj-section background-color="#EDF0F2" padding="20px 0px 0px 0px"></mj-section>
+
+        <mj-section>
+            <mj-group>
+                <mj-column width="50%" css-class="mobile-two-columns" padding="30px 0px 0px 0px">
+                    <mj-image src="./images/logo.png" alt="Canva" title="Canva" width="100px" height="35px" align="left" border="0" />
+                </mj-column>
+
+                <mj-column width="50%" css-class="mobile-two-columns" padding="30px 0px 0px 0px">
+                    <mj-button mj-class="nav-button" href="https://www.canva.com/" target="_blank">
+                        Design with Canva
+                    </mj-button>
+                </mj-column>
+            </mj-group>
+        </mj-section>
+
+        /* HEADER */
+        <mj-section>
+           <mj-column padding="30px 0px" css-class="mobile-width-85-per">
+                <mj-text>
+                    <h1 style="font-size: 32px; line-height: 130%;">This week's #CanvaDesignChallenge: Video with Patterns</h1>
+                </mj-text>
+           </mj-column> 
+        </mj-section>
+
+        /* GIF */
+        <mj-section>
+            <mj-column width="100%">
+                <mj-image src="./images/kaleidoscope.gif" alt="GIF" title="GIF" width="600px" href="https://www.canva.com/design/DAFRPlWi3Yg/4XiE8PIlBzQ0-_4u955Nbg/edit" target="_blank" border="0" />
+            </mj-column>
+        </mj-section>
+
+        /* PARAGRAPH */
+        <mj-section>
+            <mj-column padding="36px 0px 26px 0px" css-class="mobile-width-85-per">
+                <mj-text mj-class="parag-font">
+                    	With Canva, creating Videos is as easy as making any other design. Not sure where to start? Give this week’s 
+                        <span style="font-weight: bold;">#CanvaDesignChallenge</span> a go. The theme is Patterns so create a short Video 
+                        (10 seconds or less) using our wide selection of kaleidoscopic visuals and hypnotic prints. Just search for ‘patterns’ 
+                        in our elements tab, then add your favorites with one click. You can also add text, transitions, or animations if you’re 
+                        feeling extra creative. Share your Video with us, and you could win a Canva prize pack.
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        /* BUTTON ONE */
+        <mj-section>
+            <mj-column width="90%" css-class="mobile-width-90-per">
+                <mj-button align="left" href="https://www.canva.com/design/DAFRPnXdaec/U8qrEz-x2Y4oY-22YcDdUA/edit" target="_blank">
+                    Create a Video
+                </mj-button>
+            </mj-column>
+        </mj-section>
+
+        /* CHALLENGE LINKS */
+        <mj-section>
+            <mj-column width="98%" padding="20px 40px">
+                <mj-text>
+                    <a style="text-decoration: underline; font-size: 14px;">*Challenge Terms & Conditions</a>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        /* SUB HEADER ONE */
+        <mj-section><mj-column width="100%" background-color="#EDF0F2" padding="36px 0px 0px 0px"></mj-column></mj-section>
+
+        <mj-section>
+            <mj-column padding="50px 0px 0px 0px" css-class="mobile-width-85-per">
+                <mj-text>
+                    <h2 style="font-size: 28px">How do I enter?</h2>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        /* ORDERED LIST SECTION */
+        <mj-section>
+            <mj-group css-class="mobile-width-85-per">
+                <mj-column width="32px" mj-class="rounded-numbers" css-class="mobile-width-32-px">
+                    <mj-text align="center">
+                        1
+                    </mj-text>
+                </mj-column>
+                <mj-column width="90%" padding="10px 0px 0px 10px" css-class="mobile-width-90-per">
+                    <mj-text>
+                        Create a Video using Patterns with Canva templates and elements
+                    </mj-text>
+                </mj-column>
+            </mj-group>
+        </mj-section>
+        
+        <mj-section padding-top="15px">
+            <mj-group css-class="mobile-width-85-per">
+                <mj-column width="32px" mj-class="rounded-numbers" css-class="mobile-width-32-px">
+                    <mj-text align="center">
+                        2
+                    </mj-text>
+                </mj-column>
+                <mj-column width="90%" padding="0px 0px 0px 10px" css-class="mobile-width-90-per">
+                    <mj-text mj-class="parag-font">
+                        Share your design on Instagram or Twitter and tag #CanvaDesignChallenge (we can only view public accounts)
+                    </mj-text>
+                </mj-column>
+            </mj-group>
+        </mj-section>
+
+        <mj-section padding-top="15px">
+            <mj-group css-class="mobile-width-85-per">
+                <mj-column width="32px" mj-class="rounded-numbers" css-class="mobile-width-32-px">
+                    <mj-text align="center">
+                        3
+                    </mj-text>
+                </mj-column>
+                <mj-column width="90%" padding="10px 0px 0px 10px" css-class="mobile-width-90-per">
+                    <mj-text>
+                        We’ll showcase our favorite designs to the Canva community
+                    </mj-text>
+                </mj-column>
+            </mj-group>
+        </mj-section>
+
+        /* BUTTON TWO */
+        <mj-section>
+            <mj-column width="90%" padding="26px 0px 16px 0px" css-class="mobile-width-90-per">
+                <mj-button align="left" href="https://www.canva.com/design/DAFRPmDpNrs/pOfC-pQokn_uOnwrx8pSzg/edit" target="_blank">
+                    Start editing
+                </mj-button>
+            </mj-column>
+        </mj-section>
+
+        /* IMAGE SECTION TWO */
+        <mj-section>
+            <mj-column padding-bottom="26px">
+                <mj-image src="./images/canva-moon.png" alt="Photo Editing" title="Photo Editing" href="https://www.canva.com/design/DAFRPo6Hgyo/uMpUmcPWNPINkZlyfzMD-Q/edit" target="_blank" border="0" />
+            </mj-column>
+        </mj-section>
+
+        /* SUB HEADER TWO */
+        <mj-section><mj-column width="100%" background-color="#EDF0F2" padding="36px 0px 0px 0px"></mj-column></mj-section>
+
+        <mj-section>
+            <mj-column padding="50px 0px 0px 0px" css-class="mobile-width-85-per">
+                <mj-text>
+                    <h2 style="font-size: 28px">Canva community design inspiration</h2>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        /* TWO-COLUMN SECTION */
+        <mj-section>
+            <mj-column padding-bottom="26px" css-class="mobile-width-85-per">
+                <mj-text mj-class="parag-font">
+                    We loved your Zombie-themed Presentations in our last Canva Design Challenge. Here are some of our favorites:
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        <mj-section>
+            <mj-group width="95%" css-class="mobile-width-95-per">
+                <mj-column width="50%" css-class="mobile-width-90-per">
+                    <mj-image src="./images/col-img-one.png" alt="Lauren's Image" title="Lauren's Image" href="https://www.instagram.com/canva/" target="_blank" />
+                    <mj-text padding="10px 0px">
+                        <h3 style="padding-left: 10%; text-transform: uppercase; font-weight: bold; font-size: 16px">Designed by Lauren</h3>
+                    </mj-text>
+                </mj-column>
+                <mj-column width="50%" css-class="mobile-width-90-per">
+                    <mj-image src="./images/col-img-two.png" alt="" href="https://www.instagram.com/canva/" target="_blank" />
+                    <mj-text padding="10px 0px">
+                        <h3 style="padding-left: 10%; text-transform: uppercase; font-weight: bold; font-size: 16px">DESIGNED BY HOLLY</h3>
+                    </mj-text>
+                </mj-column>
+                <mj-column width="50%" css-class="mobile-width-90-per">
+                    <mj-image src="./images/col-img-three.png" alt="" href="https://www.instagram.com/canva/" target="_blank" />
+                    <mj-text padding="10px 0px">
+                        <h3 style="padding-left: 10%; text-transform: uppercase; font-weight: bold; font-size: 16px">Designed by Devin</h3>
+                    </mj-text>
+                </mj-column>
+                <mj-column width="50%" css-class="mobile-width-90-per">
+                    <mj-image src="./images/col-img-four.png" alt="" href="https://www.instagram.com/canva/" target="_blank" />
+                    <mj-text padding="10px 0px">
+                        <h3 style="padding-left: 10%; text-transform: uppercase; font-weight: bold; font-size: 16px">Designed by Sanjana</h3>
+                    </mj-text>
+                </mj-column>
+            </mj-group>
+        </mj-section>
+
+        /* TEXT AND BUTTON SECTION */
+        <mj-section>
+            <mj-column css-class="mobile-width-85-per">
+                <mj-text mj-class="parag-font">
+                    We loved your Zombie-themed Presentations in our last Canva Design Challenge. Here are some of our favorites:
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        <mj-section>
+            <mj-column width="90%" padding="26px 0px 16px 0px" css-class="mobile-width-90-per">
+                <mj-button align="left" href="https://www.canva.com/design/DAFRPrEgkww/Fk46guMdC2cctpqEoTdCHw/edit" target="_blank">
+                    Start editing
+                </mj-button>
+            </mj-column>
+        </mj-section>
+
+        /* FOOTER SECTION */
+        <mj-section><mj-column width="100%" background-color="#EDF0F2" padding="36px 0px 0px 0px"></mj-column></mj-section>
+
+        <mj-section mj-class="footer-section">
+            <mj-column mj-class="footer-width" padding-bottom="36px" css-class="mobile-width-85-per">
+                <mj-text mj-class="footer-font-color" align="center">
+                    You are receiving this email because you signed up to Canva.
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        <mj-section mj-class="footer-section"><mj-column width="100%" padding-top="1px" background-color="#C9CED4"></mj-column></mj-section>
+
+        <mj-section mj-class="footer-section" padding="26px 0px">
+            <mj-group width="72%" css-class="hide">
+                <mj-column width="23%">
+                    <mj-text mj-class="footer-font-color">
+                        Get Canva for: 
+                    </mj-text>
+                </mj-column>
+
+                <mj-column width="17%" padding-right="10px" border-left="1px solid gray">
+                    <mj-text align="center" mj-class="footer-font-color">
+                        <a href="https://www.canva.com/" target="_blank">iPhone</a>
+                    </mj-text>
+                </mj-column>
+
+                <mj-column width="15%" border-left="1px solid gray">
+                    <mj-text align="center" mj-class="footer-font-color">
+                        <a href="https://www.canva.com/" target="_blank">iPad</a>
+                    </mj-text>
+                </mj-column>
+
+                <mj-column width="16%" border-left="1px solid gray">
+                    <mj-text align="center" mj-class="footer-font-color">
+                        <a href="https://www.canva.com/" target="_blank">Andoid</a>
+                    </mj-text>
+                </mj-column>
+
+                <mj-column width="16%" border-left="1px solid gray">
+                    <mj-text align="center" mj-class="footer-font-color">
+                        <a href="https://www.canva.com/" target="_blank">Android</a>
+                    </mj-text>
+                </mj-column>
+
+                <mj-column width="13%" border-left="1px solid gray">
+                    <mj-text align="center" mj-class="footer-font-color">
+                        <a href="https://www.canva.com/" target="_blank">Mac</a>
+                    </mj-text>
+                </mj-column>
+            </mj-group>
+        </mj-section>
+
+        <mj-section mj-class="footer-section"><mj-column width="100%" padding-top="1px" background-color="#C9CED4"></mj-column></mj-section>
+
+        <mj-section mj-class="footer-section" padding="26px 0px 16px 0px">
+            <mj-column width="80%" css-class="mobile-width-80-per">
+                <mj-text align="center" mj-class="parag-font footer-font-color">
+                    This advertisement is made for you with love 💜 from Canva <br>
+                    Canva Pty Ltd, 110 Kippax St, NSW 2010, Australia. ABN 80 159 929 938
+                    If you need assistance, get in touch with us via our 
+                    <a style="text-decoration: underline;">Help Center</a>.
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        <mj-section mj-class="footer-section">
+            <mj-group width="45%" css-class="mobile-width-85-per">
+                <mj-column width="50%" css-class="mobile-two-columns">
+                    <mj-text mj-class="parag-font footer-font-color" align="center">
+                        <a href="https://www.canva.com/" target="_blank" style="text-decoration: underline;">Visit canva.com</a>
+                    </mj-text>
+                </mj-column>
+                <mj-column width="50%" css-class="mobile-two-columns">
+                    <mj-text mj-class="parag-font footer-font-color" align="center">
+                        <a style="text-decoration: underline;">Unsubscribe</a>
+                    </mj-text>
+                </mj-column>
+                <mj-column width="100%">
+                    <mj-text mj-class="parag-font footer-font-color" align="center">
+                        <a target="_blank" href="https://www.canva.com/settings/email-preferences" style="text-decoration: underline;">Manage Email Preferences</a>
+                    </mj-text>
+                </mj-column>
+            </mj-group>
+        </mj-section>
+
+        <mj-section mj-class="footer-section" padding="20px 0px 70px 0px">
+            <mj-group width="50%" css-class="mobile-two-columns">
+                <mj-column width="25%" css-class="mobile-width-25-per">
+                    <mj-image src="./images/facebook.png" alt="Facebook" title="Facebook" width="24px" height="24px" href="https://www.facebook.com/canva" target="_blank" border="0" />
+                </mj-column>
+                <mj-column width="25%" css-class="mobile-width-25-per">
+                    <mj-image src="./images/twitter.png" alt="Twitter" title="Twitter" width="24px" height="24px" href="https://twitter.com/intent/follow?source=followbutton&variant=1.0&screen_name=canva" target="_blank" border="0" />
+                </mj-column>
+                <mj-column width="25%" css-class="mobile-width-25-per">
+                    <mj-image src="./images/pintrest.png" alt="Pinterest" title="Pinterest" width="24px" height="24px" href="https://www.pinterest.com/canva/" target="_blank" border="0" />
+                </mj-column>
+                <mj-column width="25%" css-class="mobile-width-25-per">
+                    <mj-image src="./images/insta.png" alt="Instagram" title="Instagram" width="24px" height="24px" href="https://www.instagram.com/canva/" target="_blank" border="0" />
+                </mj-column>
+            </mj-group>
+        </mj-section>
+    </mj-body>
+</mjml>
