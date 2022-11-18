@@ -1,0 +1,191 @@
+<mjml>
+    <mj-head>
+        <mj-title>Laptop Email Template One</mj-title>
+        <mj-attributes>
+            <mj-section background-color="#212A32" padding="0"></mj-section>
+            <mj-column  background-color="#212A32" padding="0" width="90%"></mj-column>
+            <mj-group background-color="#212A32" width="90%"></mj-group>
+            <mj-text padding="0" color='#fff' line-height="28px"></mj-text>
+            <mj-button background-color="#3E4F5E" color="#fff" font-size="18px" target="_blank"></mj-button>
+            <mj-image padding="0px" />
+            
+            <mj-class name="bg-color" background-color="#212A32" />
+        </mj-attributes>
+
+        <mj-style>
+            @media screen and (max-width: 479.98px) {
+                .mobile-width-90-per {
+                    width: 90% !important;    
+                }
+
+                .mobile-width-75-per {
+                    width: 75% !important;
+                }
+                
+                .mobile-width-60-per {
+                    width: 60% !important;
+                }
+
+                .mobile-width-50-per {
+                    width: 50% !important;
+                }
+
+                .mobile-width-20-per {
+                    width: 20% !important;
+                }
+
+                .mobile-single-column {
+                    width: 100% !important;
+                }
+            }
+        </mj-style>
+    </mj-head>
+
+    <mj-body background-color="#ccc">
+        /* WELCOME HEADER */
+        <mj-section>
+            <mj-column width="50%" padding="15px 0px" css-class="mobile-width-50-per">
+                <mj-text align="center">
+                    <h1 style="Margin: 0px;">Hello, {{ subscriber.first_name }}!</h1>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        /* INTRO IMAGE */
+        <mj-section>
+           <mj-column>
+                <mj-image src="https://i.ibb.co/4PBWhQW/mateboox-x-pro.png"  alt="Laptop" />
+           </mj-column> 
+        </mj-section>
+
+        /* DEALS PARAG SECTION */
+        <mj-section>
+            <mj-column width="60%" css-class="mobile-width-60-per">
+                <mj-text align="center">
+                    <h2 style="Margin: 0px;">Enjoy 10% off as a thank you for signing in with us!!!</h2>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        <mj-section>
+            <mj-column>
+                <mj-text align="center" color="grey" line-height="20px" padding="20px 0px 30px 0px">
+                    Welcome, {{ subscriber.first_name }}. As a token of our appreciation, we'd like to 
+                    offer you a variety of amazing deals with our most prestine 
+                    products. 
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        <mj-section>
+            <mj-column>
+                <mj-button padding="0px" href="#">
+                    Lapbook Pro X - 10% off
+                </mj-button>
+            </mj-column>
+        </mj-section>
+        
+
+        /* TWO COLUMN SECTION */
+        <mj-section padding="40px 0px">
+            <mj-group>
+                <mj-column width="50%" css-class="mobile-single-column" padding="10px">
+                    <mj-image src="https://i.ibb.co/ZG3SV4J/mateboox-x.jpg" alt="LGX-223" title="LGX-223" border="0" /> 
+                    <mj-text padding="10px 0px">
+                        <h3>LGX-223</h3>
+                    </mj-text>  
+                    <mj-text line-height="20px">
+                        With 3.1K Real Colour FullView Display, 
+                        leading intelligent features and Super Device 
+                        that connects seamlessly, LGX-223 takes your 
+                        experience beyond the extraordinary.
+                    </mj-text> 
+                    <mj-button font-size="16px" align="left" padding="22px 0px" href="#">
+                        Learn More
+                    </mj-button>
+                </mj-column>
+                
+                <mj-column width="50%" css-class="mobile-single-column" padding="10px">
+                    <mj-image src="https://i.ibb.co/qNNS5rw/matebook-d-14.jpg" alt="LGD-14" title="LGD-14" border="0" /> 
+                    <mj-text padding="10px 0px">
+                        <h3>LGD-14</h3>
+                    </mj-text>  
+                    <mj-text line-height="20px">
+                        Beauty unveiled in two distinctive colours - Space Gray and
+                        our latest colour, Spruce Green. Get the finish you want and
+                        take it with you anywhere, thanks to the lightweight aluminum
+                        body.
+                    </mj-text> 
+                    <mj-button font-size="16px" align="left" padding="22px 0px" href="#">
+                        Learn More
+                    </mj-button>
+                </mj-column>
+            </mj-group>
+        </mj-section>
+
+        <mj-section>
+            <mj-group>
+                <mj-column width="50%" css-class="mobile-single-column" padding="10px">
+                    <mj-image src="https://i.ibb.co/FbwRmkm/matebook-16s.jpg" alt="LG-16" title="LG-16" border="0" /> 
+                    <mj-text padding="10px 0px">
+                        <h3>LG-16</h3>
+                    </mj-text>  
+                    <mj-text line-height="20px">
+                        Do the things you love on a laptop that‘s powerful to the core. 
+                        Edit videos with ease, dream up inspiring designs, 
+                        and see it all on a beautiful 2K FullView display.
+                    </mj-text> 
+                    <mj-button font-size="16px" align="left" padding="22px 0px" href="#">
+                        Learn More
+                    </mj-button>
+                </mj-column>
+                
+                <mj-column width="50%" css-class="mobile-single-column" padding="10px">
+                    <mj-image src="https://i.ibb.co/dM6qMQN/matebook-16.jpg" alt="LG-16-X" title="LG-16-X" border="0" /> 
+                    <mj-text padding="10px 0px">
+                        <h3>LG-16-X</h3>
+                    </mj-text>  
+                    <mj-text line-height="20px">
+                        The new LG-16-X brings you the productivity and portability you 
+                        need on the road, whether it is a business trip or relaxing getaway.
+                    </mj-text> 
+                    <mj-button font-size="16px" align="left" padding="22px 0px" href="#">
+                        Learn More
+                    </mj-button>
+                </mj-column>
+            </mj-group>
+        </mj-section>
+
+        /* SOCIALS */
+        <mj-section>
+            <mj-group width="50%" css-class="mobile-width-50-per">
+                <mj-column width="20%" css-class="mobile-width-20-per" background-color="#3E4F5E" border-radius="10px" padding="9px" >
+                    <mj-image src="https://i.ibb.co/LSCB06M/facebook-white-large.png" alt="Facebook" title="Facebook" border="0" width="33px" height="33px" href="#" padding-bottom="0" />
+                </mj-column>
+                <mj-column width="20%" css-class="mobile-width-20-per" background-color="#3E4F5E" border-radius="10px" padding="5px">
+                    <mj-image src="https://i.ibb.co/VV34mKv/twitter-white-large.png" alt="Twitter" title="Twitter" border="0" width="40px" height="40px" href="#" />
+                </mj-column>
+                <mj-column width="20%" css-class="mobile-width-20-per" background-color="#3E4F5E" border-radius="10px" padding="5px">
+                    <mj-image src="https://i.ibb.co/vqHxnx2/instagram-white-large.png" alt="Instagram" title="Instagram" border="0" width="40px" height="40px" href="#" />
+                </mj-column>
+                <mj-column width="20%" css-class="mobile-width-20-per" background-color="#3E4F5E" border-radius="10px" padding="5px">
+                    <mj-image src="https://i.ibb.co/M5HQdYQ/youtube-white-large.png" alt="Facebook" title="Facebook" border="0" width="40px" height="40px" href="#" />
+                </mj-column>
+            </mj-group>
+        </mj-section>
+
+        /* FOOTER SECTION */
+        <mj-section padding="30px 0px">
+            <mj-column width="75%" css-class="mobile-width-75-per">
+                <mj-text font-size="14px" color="grey" align="center">
+                    <p>You are receiving this email for testing purposes only, 
+                       and you have the right to cancel at any time. 
+                    </p>
+                    <p>{{ address }} 
+                    </p>
+                    <a href="{{ unsubscribe_url }}" style="text-decoration: none; color: grey; font-size: 14px; text-decoration: underline;">Unsubscribe</a>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+    </mj-body>
+</mjml>
