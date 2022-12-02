@@ -1,0 +1,506 @@
+:root {
+    /* Fonts */
+    --lightweight: 400;
+    --heavyweight: 700;
+    --parag-size: 14px;
+    --ff-headings: 'Raleway', sans-serif;
+    --ff-paragraphs: 'Open Sans', sans-serif;
+
+    /* Colors */
+    --intro-bg-color: hsl(217, 28%, 15%);
+    --main-bg-color: hsl(218, 28%, 13%);
+    --footer-bg-color: hsl(216, 53%, 9%);
+    --cta-bg-color: hsl(217, 28%, 15%);
+    --testimonial-bg-color: hsl(219, 30%, 18%);
+    --cta-bg-color-one: hsl(176, 68%, 64%);
+    --cta-bg-color-two: hsl(198, 60%, 50%);
+    --font-color: #fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--intro-bg-color);
+    color: var(--font-color);
+}
+
+h2,h3 {
+    font-weight: var(--heavyweight);
+    font-family: var(--ff-headings);
+}
+
+p,a {
+    font-weight: var(--lightweight);
+    font-family: var(--ff-paragraphs);
+}
+
+h2 {
+    font-size: 30px;
+}
+
+.hide {
+    opacity: 0;
+}
+
+.visible {
+    animation: display .4s ease-in;
+}
+
+/* Navbar Styles */
+header {
+    width: 90%;
+    margin: 0 auto;
+}
+
+header {
+    padding: 40px 0px 0px 0px;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav img {
+    width: 120px
+}
+
+header nav .nav-options {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-options a {
+    margin-right: 30px;
+    font-size: var(--parag-size);
+    text-decoration: none;
+    color: var(--font-color);
+}
+
+.nav-options a:last-child {
+    margin: 0px;
+}
+
+/* Intro Paragraph Sections */
+.intro-bg {
+    background: url(../fylo-dark-theme-landing-page-master/images/bg-curvy-desktop.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    padding-bottom: 180px;
+}
+
+.intro-container {
+    width: 50%;
+    margin: 30px auto 0 auto;
+    text-align: center;
+}
+
+.intro-container img {
+    width: 90%;
+}
+
+.intro-container h2 {
+    padding-top: 10px;
+    font-size: 30px;
+}
+
+.intro-container p {
+    padding-top: 10px;
+    /* font-size: var(--parag-size); */
+}
+
+.cta-btn,
+.submit-btn {
+    width: 50%;
+    padding: 15px 0px;
+    margin: 25px auto 0px auto;
+    text-align: center;
+    background: linear-gradient(90deg , var(--cta-bg-color-one) , var(--cta-bg-color-two));
+    border-radius: 50px;
+    /* transition: all .3s ease-out; */
+}
+
+.cta-btn a {
+    text-decoration: none;
+    color: var(--font-color);
+}
+
+.cta-btn:hover,
+.submit-btn:hover {
+    cursor: pointer;
+    background: var(--cta-bg-color-one);
+    transition: all .3s ease;
+}
+
+.two-column-bg {
+    background-color: var(--main-bg-color);
+}
+
+.two-col {
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 75px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.column {
+    text-align: center;
+}
+
+.column img {
+    height: 80px;
+}
+
+.column-info {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* Second Paragtaph Styles */
+.productivity-bg {
+    background-color: var(--main-bg-color);
+}
+
+.productivity-section {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.productivity-img {
+    width: 50%;
+}
+
+.productivity-img img {
+    width: 100%;
+}
+
+.productivity-info {
+    width: 40%;
+    margin: 75px 0px 100px 40px;
+}
+
+.productivity-info p,
+.productivity-info a {
+    margin: 15px 0px;
+}
+
+.productivity-info a {
+    text-decoration: none;
+    color: var(--cta-bg-color-one);
+    font-weight: var(--lightweight);
+    text-decoration: underline;
+}
+
+/* Testimonial Section Styles */
+.testimonial-bg {
+    background-color: var(--main-bg-color);
+    padding-top: 100px;
+}
+
+.testimonial-section {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 36px;
+    display: flex;
+    justify-content: space-around;
+    background: url(../fylo-dark-theme-landing-page-master/images/bg-quotes.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.testimonial {
+    width: 32%;
+    background-color: var(--testimonial-bg-color);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.testimonial-info {
+    width: 90%;
+    margin: 22px auto 15px auto;
+}
+
+.reviewer {
+    display: flex;
+}
+
+.reviewer img {
+    margin: 0px 20px 10px 20px;
+    border-radius: 50%;
+}
+
+.reviewer h5, 
+.reviewer p {
+    margin: 0;
+}
+
+.reviewer p {
+    margin-top: 10px; 
+}
+
+/* Email Form Section */
+.form-bg {
+    background-color: var(--main-bg-color);
+}
+
+.form-container {
+    position: relative;
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 320px;
+}
+
+.form-section {
+    position: absolute;
+    width: 100%;
+    top: 165px;
+    text-align: center;
+    background-color: var(--intro-bg-color);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+    z-index: 10;
+}
+
+.form-section h2 {
+    padding: 25px 0px;
+}
+
+.form-text {
+    width: 75%;
+    margin: 0 auto;
+    padding-bottom: 30px;
+    text-align: center;
+    font: 14px;
+    font-weight: var(--lightweight);
+}
+
+.input-and-submit {
+    width: 85%;
+    margin: 0 auto 30px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-and-submit input {
+    width: 65%;
+    height: 45px;
+    padding: 0px 15px;
+    border-radius: 50px;
+}
+
+.submit-btn {
+    width: 30%;
+    margin: 0px;
+}
+
+/* Footer Section */
+footer {
+    padding-top: 175px;
+    background-color: var(--footer-bg-color);
+}
+
+.footer-logo,
+.footer-navigation {
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+
+.footer-logo img {
+    width: 120px
+}
+
+.footer-navigation,
+.address,
+.company-links,
+.contact-info div,
+.socials {
+    display: flex;
+}
+
+.address {
+    width: 35%;
+    margin-right: 5px;
+}
+
+.company-links,
+.contact-info,
+.socials {
+    width: 25%;
+    margin: 0 5px;
+    justify-content: center;
+}
+
+.address img,
+.contact-info div img,
+.footer-col {
+    margin-right: 15px;
+}
+
+.footer-navigation {
+    justify-content: space-around;
+}
+
+.footer-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-col a {
+    padding: 0px 0px 8px 0px;
+}
+
+.company-links {
+    justify-content: inherit;
+}
+
+.socials div i {
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+
+.socials div i:hover {
+    cursor: pointer;
+}
+
+.socials i {
+    padding: 10px;
+    margin: 0 10px;
+}
+
+@keyframes display {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width: 899.98px) {
+    .input-and-submit {
+        display: block;
+    }
+
+    .input-and-submit input,
+    .submit-btn {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .input-and-submit input {
+        margin-bottom: 15px;
+    }
+
+    footer {
+        padding-top: 230px;
+    }
+}
+
+@media screen and (max-width: 678.98px) {
+    .nav-options a {
+        margin-right: 16px;
+    }
+
+    .intro-container {
+        width: 80%;
+    }
+
+    .productivity-section {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .productivity-img,
+    .productivity-info {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .productivity-info h2 {
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .testimonial-section {
+        padding-top: 10px;
+        padding-left: 4px;
+        display: block;
+    }
+
+    .testimonial {
+        width: 100%;
+    }
+
+    .testimonial-info {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    }
+
+    .form-section h2 {
+        font-size: 14px;
+        font-weight: var(--heavyweight);
+    }
+
+    footer {
+        padding-top: 250px;
+    }
+
+    .footer-navigation {
+        display: block;
+    }
+
+    .address,
+    .contact-info,
+    .contact-info div,
+    .company-links,
+    .socials {
+        margin-bottom: 20px;
+    }
+
+    .address,
+    .contact-info {
+        width: 95%;
+    }
+
+    .socials {
+        width: 30%;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .two-col {
+        width: 100%;
+        display: inline-block;
+        padding-bottom: 0px;
+    }
+
+    .column {
+        padding-bottom: 75px;
+    }
+
+    .productivity-info h2 {
+        font-size: 20px;
+        font-weight: var(--heavyweight);
+    }
+
+    .form-section {
+        top: 130px
+    }
+
+    .company-links {
+        display: block;
+    }
+
+    .company-links div a {
+        margin: 10px 0px;
+    }
+}
